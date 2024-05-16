@@ -22,9 +22,7 @@ variable "tenant_id" {
   type = string
 }
 
-provider "azurerm" {
-  features {}
-}
+
 
 terraform {
   required_providers {
